@@ -1,1 +1,1 @@
-{'name': 'asdasd', 'email': 'levani@gmail.com'}
+{'name': 'levani', 'email': 'levani@gmail.com'}
