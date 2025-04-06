@@ -13,9 +13,11 @@ def send_Email():
         'name': request.form['full_name'],
         'email': request.form['email']
     }
+
     file_path = os.path.join(app.root_path, 'emails.txt')
-    with open(file_path, 'a', encoding='utf-8') as f: 
+    with open(file_path, 'a', encoding='utf-8') as f:
         f.write(str(user) + '\n')
+
     return user
 
 if __name__ == "__main__":
